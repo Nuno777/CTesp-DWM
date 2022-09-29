@@ -77,7 +77,7 @@ button,
 input,
 select,
 textarea {
-    color: #000000;
+   	color: #858585;
     font-family: "Poppins", "Work Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     line-height: 1.6;
     font-size: 1rem;
@@ -3813,6 +3813,24 @@ body.blog .page-section-space.blog.blg-masonry.stretched .spice-container{
     .blg-masonry.stretched .spice-row .spice-col-5{
         max-width: 100%;
     }
+}
+@media (min-width: 992px) {
+.page-section-full {
+width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.page-section-full {
+width: 1170px;
+}
+}
+.page-section-full {
+ margin-right: auto;
+ margin-left: auto;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-top: 50px;
+ margin-bottom: 80px;
 }
 .blg-masonry.stretched .spice-col-1,.blog.blg-masonry .spice-col-1{padding:0px;}
 article.post .entry-meta a{word-break: break-all;}
