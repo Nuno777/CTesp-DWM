@@ -58,7 +58,7 @@ if (!function_exists('olivewp_breadcrumbs')):
 						}
 					    if(get_theme_mod('bredcrumb_alignment','parallel')=='parallel'){ 
 					    	if(get_theme_mod('bredcrumb_position','page_header')=='page_header'):
-					    		echo '<div class="spice-col-3 parallel">';
+					    		echo '<div class="spice-col-1 parallel">';
 					    		do_action('olivewp_breadcrumbs_page_title_hook');
 					    		echo '</div>';
 					    	endif;
